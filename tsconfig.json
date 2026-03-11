@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                                  /* В какую версию JS компилировать (современную) */
+    "module": "ES2022",                                  /* Система модулей (наши import/export) */
+    "moduleResolution": "node",
+    "outDir": "./dist",                                  /* КУДА складывать скомпилированные .js файлы */
+    "rootDir": "./src",                                  /* ОТКУДА брать исходники */
+    "allowJs": true,                                     /* РАЗРЕШИТЬ смешивать .ts и .js файлы (Ключ к плавной миграции!) */
+    "strict": true,                                      /* Включить строгие проверки (бьет по рукам за null/undefined) */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]                                /* Компилировать всё внутри папки src */
+}
